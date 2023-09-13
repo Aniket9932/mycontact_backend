@@ -19,6 +19,7 @@ const getContact = (req, res) => {
 //@access public
 
 const createContact = (req, res) => {
+  console.log("Request Body is : ",req.body);
   res.status(200).json({ message: "Create Contact" });
 };
 
